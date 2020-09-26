@@ -1,32 +1,4 @@
-# uid	record id
-# tag_id	transmitter ID number
-# utc	universal time coordinate
-# lc	location class, see http://www.nacls.com/html/argos/manual/html/chap2/chap2_3.htm#2.3.5
-# iq	quality index, see http://www.nacls.com/html/argos/manual/html/chap4/chap4_4_9.htm#4.4.9.3 
-# lat1	solution1 latitude
-# lon1	solution1 longitude
-# lat2	solution2 latitude
-# lon2	solution2 longitude
-# nb_mes	number of messages received
-# big_nb_mes	number of messages received by satellite with signal strength greater than -120 decibels
-# best_level	strongest signal strength received
-# pass_duration	time elapsed between first and last messages being received by satellite
-# nopc	number of successful plausibility checks (0 to 4)
-# calcul_freq	calculated transmit frequency 
-# altitude	altitude used in location calculation
-uid	tag_id	utc	lc	iq	lat1	lon1	lat2	lon2	nb_mes	big_nb_mes	best_level	pass_duration	nopc	calcul_freq	altitude
-20616	29051	7/3/2003 9:13	3	66	33.898	-77.958	27.369	-46.309	6	0	-126	529	3	401 651134.7	0
-21892	29051	7/3/2003 9:23	B	0	33.887	-77.95	43.983	-128.418	2	0	-132	96	1	401 651133.1	0
-20618	29051	7/3/2003 10:31	A	6	33.884	-77.946	22.875	-25.276	3	0	-132	320	3	401 651169.3	0
-20619	29051	7/3/2003 10:49	A	7	33.927	-78.008	37.291	-94.435	3	0	-125	260	2	401 651166.8	0
-20620	29051	7/3/2003 12:10	2	67	33.901	-77.909	31.005	-64.614	4	0	-124	612	3	401 651181.6	0
-20621	29051	7/3/2003 12:11	B	0	33.575	-77.691	32.741	-73.276	2	0	-126	408	2	401 651134.7	0
-20624	29051	7/3/2003 14:45	B	0	33.84	-77.807	26.446	-41.968	2	0	-134	151	2	401 651134.7	0
-20627	29051	7/3/2003 16:28	B	0	33.794	-77.513	36.337	-89.9	2	0	-130	281	2	401 651134.7	0
-20629	29051	7/3/2003 17:02	A	8	33.95	-77.804	36.8	-91.697	3	0	-121	186	3	401 651176.7	0
-20630	29051	7/3/2003 17:29	B	0	33.965	-77.984	42.107	-38.299	2	0	-127	237	2	401 651134.7	0
-20631	29051	7/3/2003 19:07	0	58	33.989	-77.698	32.239	-86.421	4	0	-125	514	3	401 651179.0	0
-21893	29051	7/3/2003 22:11	B	0	34.028	-77.74	30.15	-96.516	2	0	-124	191	2	401 651179.0	0
+2003 22:11	B	0	34.028	-77.74	30.15	-96.516	2	0	-124	191	2	401 651179.0	0
 20639	29051	7/4/2003 2:32	B	0	34.117	-77.735	36.995	-63.539	2	0	-127	143	2	401 651179.0	0
 20640	29051	7/4/2003 3:42	B	0	34.136	-77.725	31.25	-91.766	2	0	-126	53	2	401 651179.0	0
 20767	29051	7/4/2003 9:13	A	0	34.208	-77.734	43.417	-122.782	3	0	-130	459	3	401 651187.3	0
